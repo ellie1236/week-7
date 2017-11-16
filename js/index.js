@@ -5,13 +5,10 @@ $(document).on("pagecreate","#pageone",function(){
 });            
 
 
-      
-
-
-function random() {
-	return !Math.round(Math.random());
+function submitText() {
+	var text = $('#textinput').val();
+	alert(text);
 }
-
 
 function storeValue(key, value) {
 	//add some code to store the key-value pair in persistant storage 
